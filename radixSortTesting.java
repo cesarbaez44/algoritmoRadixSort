@@ -11,7 +11,7 @@ public class radixSortTesting{
     }
 
     public static void main(String[] args) throws IOException{
-        radixSortFiles files = new radixSortFiles(); // 👈 cambio aquí
+        radixSortFiles files = new radixSortFiles(); 
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         String fileName;
         int[] numeros;
